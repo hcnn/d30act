@@ -1,0 +1,13 @@
+{
+  "name": "d30act",
+  "version": "0.1.0",
+  "repo": "hcnn/d30act",
+  "description": "Date difference in years according to the 30/Actual daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "30/Actual"],
+  "license": "MIT",
+  "src": ["d30act.c", "d30act.h"],
+  "dependencies": {
+    "hcnn/isaleapyear": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
